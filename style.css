@@ -123,3 +123,27 @@ p.slide-left {
 .links.slide-left {
   animation-delay: 2s;
 }
+
+@media (max-width: 784px) {
+  nav {
+    margin: 0px;
+    padding: 0%;
+  }
+  nav ul {
+    cursor: pointer;
+    font-size: medium;
+    display: flex;
+    margin: -18px;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    justify-items: center;
+    margin: 0px;
+  }
+  .logo {
+    display: inline-flex;
+    justify-content: left;
+  }
+}
